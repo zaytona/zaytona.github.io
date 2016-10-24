@@ -16,11 +16,10 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        {% for page in site.pages %}
-          {% if page.title %}
-            <li><a href="{{page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
-          {% endif %}
-        {% endfor %}
+        <li><a href="/ruby">Ruby|Rails</a></li>
+        <li><a href="/mobile">Mobile</a></li>
+        <li><a href="/articles">Articles</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
 
     <!--  <ul class="nav navbar-nav navbar-right">
