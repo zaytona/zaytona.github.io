@@ -11,7 +11,7 @@ email: mh@zaytona.com
 
 #write html inside the double quotes to display in jumbotron
 description: 
-  <h2> Web & Mobile Parctitioners</h2>
+  <h2> Web & Mobile Practitioners</h2>
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zaytona.github.io" # the base hostname & protocol for your site
